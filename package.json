@@ -1,0 +1,26 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "Link shortener service",
+  "main": "app.js",
+  "scripts": {
+    "startdev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "link",
+    "shortener"
+  ],
+  "author": "Vicent Tugume",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "randomatic": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
