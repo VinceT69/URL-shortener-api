@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "startdev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest --watchAll"
   },
   "keywords": [
     "link",
@@ -21,6 +22,8 @@
     "randomatic": "^3.1.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "jest": "^29.0.1",
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
   }
 }
