@@ -14,7 +14,7 @@ The JSON request body should have the key 'link' with the URL to be shortened as
 
 # RESPONSE
 The API will return a JSON response object with the shortened link. See example below
-{"shortenedlink": "localhost:3000/v1/gjpgq"}
+{"shortenedlink": "localhost:3000/gjpgq"}
 
 ## PRODUCTION
 Before deploying this application to production, include environment variables in the config.env file that is located in the src/config folder.
